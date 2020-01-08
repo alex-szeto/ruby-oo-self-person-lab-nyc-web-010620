@@ -72,13 +72,13 @@ class Person
     if topic == "politics"
       self.happiness -= 2
       friend.happiness -= 2
-      'blah blah partisan blah lobbyist'
+      "blah blah partisan blah lobbyist"
     elsif topic == "weather"
       self.happiness += 1
       friend.happiness += 1
       "blah blah sun blah rain"
     else
-      'blah blah blah blah blah'
+      "blah blah blah blah blah"
     end
   end
   
